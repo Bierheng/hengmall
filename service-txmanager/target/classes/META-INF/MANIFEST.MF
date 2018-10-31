@@ -1,0 +1,75 @@
+Manifest-Version: 1.0
+Implementation-Title: service-txmanager
+Implementation-Version: 4.2.0-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: com.codingapi
+Class-Path: ./ lib/lorne_core-1.0.0.jar lib/lorne_exception-1.0.0.RELE
+ ASE.jar lib/fastjson-1.2.34.jar lib/commons-fileupload-1.3.1.jar lib/
+ commons-beanutils-1.9.3.jar lib/commons-collections-3.2.2.jar lib/com
+ mons-dbcp-1.4.jar lib/commons-io-2.4.jar lib/commons-lang-2.6.jar lib
+ /commons-logging-1.1.1.jar lib/commons-pool-1.6.jar lib/commons-dbuti
+ ls-1.6.jar lib/commons-configuration-1.8.jar lib/commons-codec-1.10.j
+ ar lib/httpmime-4.5.3.jar lib/httpclient-4.5.3.jar lib/httpcore-4.4.6
+ .jar lib/axis-1.4.jar lib/netty-all-4.1.12.Final.jar lib/spring-cloud
+ -starter-eureka-server-1.3.1.RELEASE.jar lib/spring-cloud-starter-1.2
+ .2.RELEASE.jar lib/spring-cloud-context-1.2.2.RELEASE.jar lib/spring-
+ security-crypto-4.2.3.RELEASE.jar lib/spring-cloud-commons-1.2.2.RELE
+ ASE.jar lib/spring-security-rsa-1.0.3.RELEASE.jar lib/bcpkix-jdk15on-
+ 1.55.jar lib/bcprov-jdk15on-1.55.jar lib/spring-cloud-netflix-eureka-
+ server-1.3.1.RELEASE.jar lib/spring-boot-starter-actuator-1.5.4.RELEA
+ SE.jar lib/spring-boot-actuator-1.5.4.RELEASE.jar lib/spring-boot-sta
+ rter-freemarker-1.5.4.RELEASE.jar lib/freemarker-2.3.26-incubating.ja
+ r lib/spring-cloud-netflix-core-1.3.1.RELEASE.jar lib/spring-cloud-ne
+ tflix-eureka-client-1.3.1.RELEASE.jar lib/eureka-client-1.6.2.jar lib
+ /jettison-1.3.7.jar lib/stax-api-1.0.1.jar lib/netflix-eventbus-0.3.0
+ .jar lib/netflix-infix-0.3.0.jar lib/commons-jxpath-1.3.jar lib/joda-
+ time-2.9.9.jar lib/antlr-runtime-3.4.jar lib/stringtemplate-3.2.1.jar
+  lib/antlr-2.7.7.jar lib/gson-2.8.0.jar lib/commons-math-2.2.jar lib/
+ jsr311-api-1.1.1.jar lib/servo-core-0.10.1.jar lib/servo-internal-0.1
+ 0.1.jar lib/jersey-core-1.19.1.jar lib/jersey-client-1.19.1.jar lib/j
+ ersey-apache-client4-1.19.1.jar lib/guice-4.1.0.jar lib/aopalliance-1
+ .0.jar lib/jersey-servlet-1.19.1.jar lib/jersey-server-1.19.1.jar lib
+ /eureka-core-1.6.2.jar lib/woodstox-core-asl-4.4.1.jar lib/stax-api-1
+ .0-2.jar lib/archaius-core-0.7.4.jar lib/jsr305-3.0.1.jar lib/javax.i
+ nject-1.jar lib/jackson-dataformat-xml-2.8.8.jar lib/jackson-module-j
+ axb-annotations-2.8.8.jar lib/stax2-api-3.1.4.jar lib/woodstox-core-5
+ .0.3.jar lib/xstream-1.4.9.jar lib/xmlpull-1.1.3.1.jar lib/xpp3_min-1
+ .1.4c.jar lib/spring-cloud-starter-archaius-1.3.1.RELEASE.jar lib/jac
+ kson-annotations-2.8.0.jar lib/jackson-core-2.8.8.jar lib/spring-clou
+ d-starter-ribbon-1.3.1.RELEASE.jar lib/ribbon-2.2.2.jar lib/ribbon-tr
+ ansport-2.2.2.jar lib/rxnetty-contexts-0.4.9.jar lib/rxnetty-servo-0.
+ 4.9.jar lib/hystrix-core-1.5.12.jar lib/HdrHistogram-2.1.9.jar lib/rx
+ netty-0.4.9.jar lib/netty-codec-http-4.0.27.Final.jar lib/netty-codec
+ -4.0.27.Final.jar lib/netty-handler-4.0.27.Final.jar lib/netty-transp
+ ort-native-epoll-4.0.27.Final.jar lib/netty-common-4.0.27.Final.jar l
+ ib/netty-buffer-4.0.27.Final.jar lib/netty-transport-4.0.27.Final.jar
+  lib/ribbon-core-2.2.2.jar lib/ribbon-httpclient-2.2.2.jar lib/netfli
+ x-commons-util-0.1.1.jar lib/ribbon-loadbalancer-2.2.2.jar lib/netfli
+ x-statistics-0.1.1.jar lib/rxjava-1.1.10.jar lib/ribbon-eureka-2.2.2.
+ jar lib/slf4j-api-1.7.25.jar lib/spring-boot-starter-web-1.5.4.RELEAS
+ E.jar lib/spring-boot-starter-1.5.4.RELEASE.jar lib/spring-boot-1.5.4
+ .RELEASE.jar lib/spring-boot-autoconfigure-1.5.4.RELEASE.jar lib/spri
+ ng-boot-starter-logging-1.5.4.RELEASE.jar lib/logback-classic-1.1.11.
+ jar lib/logback-core-1.1.11.jar lib/jul-to-slf4j-1.7.25.jar lib/log4j
+ -over-slf4j-1.7.25.jar lib/spring-core-4.3.9.RELEASE.jar lib/snakeyam
+ l-1.17.jar lib/spring-boot-starter-tomcat-1.5.4.RELEASE.jar lib/tomca
+ t-embed-core-8.5.15.jar lib/tomcat-embed-el-8.5.15.jar lib/tomcat-emb
+ ed-websocket-8.5.15.jar lib/hibernate-validator-5.3.5.Final.jar lib/v
+ alidation-api-1.1.0.Final.jar lib/jboss-logging-3.3.1.Final.jar lib/c
+ lassmate-1.3.3.jar lib/jackson-databind-2.8.8.jar lib/spring-web-4.3.
+ 9.RELEASE.jar lib/spring-aop-4.3.9.RELEASE.jar lib/spring-beans-4.3.9
+ .RELEASE.jar lib/spring-context-4.3.9.RELEASE.jar lib/spring-webmvc-4
+ .3.9.RELEASE.jar lib/spring-expression-4.3.9.RELEASE.jar lib/spring-b
+ oot-starter-redis-1.3.8.RELEASE.jar lib/spring-data-redis-1.8.4.RELEA
+ SE.jar lib/spring-data-keyvalue-1.2.4.RELEASE.jar lib/spring-data-com
+ mons-1.13.4.RELEASE.jar lib/spring-tx-4.3.9.RELEASE.jar lib/spring-ox
+ m-4.3.9.RELEASE.jar lib/spring-context-support-4.3.9.RELEASE.jar lib/
+ jcl-over-slf4j-1.7.25.jar lib/jedis-2.9.0.jar lib/commons-pool2-2.4.2
+ .jar lib/guava-19.0.jar
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/service-txma
+ nager/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.codingapi.tm.TxManagerApplication
+

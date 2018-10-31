@@ -1,0 +1,47 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+    ip-address: 192.168.0.156
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.0.156:8761/eureka/
+server:
+  port: 9991
+spring:
+  application:
+    name: tree-house-zuul
+zuul:
+  routes:
+    api-user:
+      path: /api-user/**
+      serviceId: user
+    api-friend:
+      path: /api-friend/**
+      serviceId: friend
+    api-userGoods:
+      path: /api-goods/**
+      serviceId: user-goods
+    api-treeHouse:
+          path: /api-treeHouse/**
+          serviceId: tree-house
+    api-message:
+      path: /api-message/**
+      serviceId: message
+    api-fishing:
+      path: /api-fishing/**
+      serviceId: fishing
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+  SocketTimeout: 60000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+

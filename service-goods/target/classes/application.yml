@@ -1,0 +1,58 @@
+server:
+    port: 9097
+spring:
+    datasource:
+        type: com.zaxxer.hikari.HikariDataSource
+        url: jdbc:mysql://bj-cdb-kkucszns.sql.tencentcdb.com:62815/tongzhu_treehouse_dev?useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password: rP3Za18k3Mw18gDJ
+        hikari:
+            data-source-properties:
+                cachePrepStmts: true
+                prepStmtCacheSize: 250
+                prepStmtCacheSqlLimit: 2048
+                useServerPrepStmts: true
+                maxLifetime: 1800000
+                idleTimeout: 600000
+    application:
+      name: welfare
+    redis:
+        database: 1
+        host: 118.89.240.227 #120.55.167.171
+        port: 6379
+        password: foreversupermarket
+        lettuce:
+          shutdown-timeout: 30000ms
+          pool:
+            max-active: 10
+            max-wait: -1ms
+            max-idle: 0
+mybatis:
+    type-aliases-package: com.tongzhu.welfare.model
+    mapper-locations: classpath:mapping/**/*Mapper.xml
+
+#pagehelper分页工具
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+eureka:
+  instance:
+    prefer-ip-address: true
+    ip-address: 192.168.0.156
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.0.156:8761/eureka/
+#logging:
+#  level:
+#    com.tongzhu.welfare.mapper : debug
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+  SocketTimeout: 60000
+feign:
+  hystrix:
+    enabled: true
+#txmanager地址
+#tm.manager.url: http://118.89.240.227:8899/tx/manager/

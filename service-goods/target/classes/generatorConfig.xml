@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--
+        出现错误：Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+        解决办法：将本地的MAVEN仓库中的mysql驱动引入进来
+    -->
+    <!--<classPathEntry location="/Users/hwb1122/IdeaProjects/mysql-connector-java-5.1.44.jar"/>-->
+    <classPathEntry location="F:\repository\mysql\mysql-connector-java\5.1.44\mysql-connector-java-5.1.44.jar"/>
+    <context id="mysqlgenerator" targetRuntime="MyBatis3">
+        <!--不生成注释-->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+        <!-- 配置数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://bj-cdb-kkucszns.sql.tencentcdb.com:62815/tongzhu_treehouse_dev"
+                        userId="root"
+                        password="rP3Za18k3Mw18gDJ" />
+
+        <!-- 指定javaBean生成的位置 -->
+        <javaModelGenerator targetPackage="com.tongzhu.welfare.model" targetProject="src/main/java" >
+            <!-- 在targetPackage的基础上，根据数据库的schema再生成一层package，最终生成的类放在这个package下，默认为false -->
+            <property name="enableSubPackages" value="true" />
+            <!-- 设置是否在getter方法中，对String类型字段调用trim()方法 -->
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!--指定sql映射文件生成的位置 -->
+        <sqlMapGenerator targetPackage="mapping" targetProject="src/main/resources" >
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+        <!-- 指定dao接口生成的位置，mapper接口 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.tongzhu.welfare.mapper" targetProject="src/main/java" >
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <!--<table tableName="tz_fish_info" domainObjectName="FishInfo"></table>-->
+
+
+        <!--<table tableName="tz_user_activity" domainObjectName="UserActivity"></table>-->
+        <!--<table tableName="tz_user_activity_props" domainObjectName="UserActivityProps"></table>-->
+        <!--<table tableName="tz_user_activity_props_goods" domainObjectName="UserActivityPropsGoods"></table>-->
+        <!--<table tableName="tz_fishing_info" domainObjectName="FishingInfo"></table>-->
+        <!--<table tableName="tz_fishing_secret_operation" domainObjectName="FishingSecretOperation"></table>-->
+        <table tableName="tz_dial_info" domainObjectName="DialInfo"></table>
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,4 @@
+ALTER TABLE `tongzhu_treehouse_dev`.`tz_user` CHANGE `quintessence` `role_id` INT(11) NULL COMMENT '角色ID';   # 2018/10/19
+
+ALTER TABLE `tz_user_goods` DROP PRIMARY KEY,ADD PRIMARY KEY (`id`);  # 2018/10/23
+
