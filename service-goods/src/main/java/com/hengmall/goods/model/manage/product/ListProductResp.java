@@ -1,0 +1,52 @@
+package com.hengmall.goods.model.manage.product;
+
+import java.util.List;
+
+import com.hengmall.goods.model.manage.PageResq;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+/**
+ * @ClassName: 后台管理，查询商品列表返回参数
+ * @Description: 
+ * @author Administrator
+ * @date 2018年5月28日 下午2:34:32 
+ */
+@ApiModel
+public class ListProductResp extends PageResq
+{
+	@ApiModelProperty(value = "商品列表")
+	List<ProductBean> productList;
+
+	@Override
+	public String toString()
+	{
+		StringBuffer buffer = new StringBuffer();
+		buffer.append("ProductListResp{");
+		buffer.append("productList='").append(productList).append("'");
+		buffer.append("total='").append(total).append("'");
+		buffer.append("}");
+		return buffer.toString();
+	}
+
+	public List<ProductBean> getProductList()
+	{
+		return productList;
+	}
+
+	public void setProductList(List<ProductBean> productList)
+	{
+		this.productList = productList;
+	}
+
+	public int getTotal()
+	{
+		return total;
+	}
+
+	public void setTotal(int total)
+	{
+		this.total = total;
+	}
+}
