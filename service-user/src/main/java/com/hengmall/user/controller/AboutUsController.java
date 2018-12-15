@@ -1,4 +1,4 @@
-package com.server.controller.rest;
+package com.hengmall.user.controller;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.server.entity.aboutUs.AboutUsResponse;
-import com.server.entity.aboutUs.AboutUsSaveRequest;
-import com.server.entity.api.Ajax;
-import com.server.service.AboutUsService;
+import com.hengmall.user.model.aboutUs.AboutUsResponse;
+import com.hengmall.user.model.aboutUs.AboutUsSaveRequest;
+import com.hengmall.user.model.api.Ajax;
+import com.hengmall.user.service.AboutUsService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

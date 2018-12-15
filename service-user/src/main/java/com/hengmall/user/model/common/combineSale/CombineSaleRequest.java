@@ -1,6 +1,6 @@
-package com.server.entity.common.combineSale;
+package com.hengmall.user.model.common.combineSale;
 
-import com.server.entity.basics.BasicsBean;
+import com.hengmall.user.model.basics.BasicsBean;
 
 /**
  * 拼单商品列表   request

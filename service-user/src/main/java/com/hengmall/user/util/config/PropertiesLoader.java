@@ -1,4 +1,4 @@
-package com.server.utils.config;
+package com.hengmall.user.util.config;
 
 import java.io.IOException;
 import java.io.InputStream;

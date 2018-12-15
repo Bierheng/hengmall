@@ -1,4 +1,4 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.List;
 
@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.server.dao.TbLogDao;
-import com.server.dao.TbShiroFilterDao;
-import com.server.entity.DataTablesResult;
-import com.server.entity.TbLog;
-import com.server.entity.TbShiroFilter;
-import com.server.exception.XmallException;
-import com.server.service.SystemService;
+import com.hengmall.user.dao.TbLogDao;
+import com.hengmall.user.dao.TbShiroFilterDao;
+import com.hengmall.user.exception.XmallException;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.TbLog;
+import com.hengmall.user.model.TbShiroFilter;
+import com.hengmall.user.service.SystemService;
 
 /**
  * @author wuhengbin

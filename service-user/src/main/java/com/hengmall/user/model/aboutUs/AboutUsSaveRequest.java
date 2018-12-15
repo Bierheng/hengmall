@@ -1,8 +1,8 @@
-package com.server.entity.aboutUs;
+package com.hengmall.user.model.aboutUs;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-import com.server.entity.basics.BasicsSaveBean;
+import com.hengmall.user.model.basics.BasicsSaveBean;
 
 import io.swagger.annotations.ApiModelProperty;
 

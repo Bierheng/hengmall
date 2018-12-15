@@ -1,4 +1,4 @@
-package com.server.entity;
+package com.hengmall.user.model;
 
 /**
  * 商品详情 （主要展示图片和视频） 实体类

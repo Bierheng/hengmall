@@ -1,4 +1,4 @@
-package com.server.entity;
+package com.hengmall.user.model;
 
 /**
  * 商品表和类别表的关联表 实体类

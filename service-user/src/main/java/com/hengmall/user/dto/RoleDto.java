@@ -1,4 +1,4 @@
-package com.server.dto;
+package com.hengmall.user.dto;
 
 
 import java.io.Serializable;

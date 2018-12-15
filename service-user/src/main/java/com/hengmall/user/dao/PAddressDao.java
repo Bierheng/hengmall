@@ -1,12 +1,17 @@
-package com.server.dao;
-
-import com.server.entity.PAddressEntity;
-import com.server.entity.api.EditAddressReq;
-import com.server.entity.constitute.AddressList;
-import org.apache.ibatis.annotations.*;
-import org.springframework.stereotype.Repository;
+package com.hengmall.user.dao;
 
 import java.util.List;
+
+import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
+import org.springframework.stereotype.Repository;
+
+import com.hengmall.user.model.PAddressEntity;
+import com.hengmall.user.model.api.EditAddressReq;
+import com.hengmall.user.model.constitute.AddressList;
 
 /**
  * Created by Administrator on 2018/5/24.

@@ -1,4 +1,4 @@
-package com.server.entity.common.combineSale;
+package com.hengmall.user.model.common.combineSale;
 
 /**
  * 下拉选择框对象

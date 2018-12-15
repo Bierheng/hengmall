@@ -1,6 +1,6 @@
-package com.server.entity.record;
+package com.hengmall.user.model.record;
 
-import com.server.entity.basics.BasicsBean;
+import com.hengmall.user.model.basics.BasicsBean;
 
 /**
  * 分销收益记录列表   request

@@ -1,4 +1,4 @@
-package com.server.controller.rest;
+package com.hengmall.user.controller;
 
 import java.io.IOException;
 import java.util.concurrent.CopyOnWriteArraySet;

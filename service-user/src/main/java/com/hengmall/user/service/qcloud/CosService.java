@@ -1,4 +1,4 @@
-package com.server.service.qcloud;
+package com.hengmall.user.service.qcloud;
 
 import com.qcloud.cos.COSClient;
 import com.qcloud.cos.ClientConfig;

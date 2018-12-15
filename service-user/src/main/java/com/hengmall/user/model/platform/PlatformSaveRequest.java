@@ -1,4 +1,4 @@
-package com.server.entity.platform;
+package com.hengmall.user.model.platform;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import javax.validation.constraints.Digits;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-import com.server.entity.basics.BasicsSaveBean;
+import com.hengmall.user.model.basics.BasicsSaveBean;
 
 import io.swagger.annotations.ApiModelProperty;
 

@@ -1,4 +1,4 @@
-package com.server.entity.record;
+package com.hengmall.user.model.record;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 
@@ -8,10 +8,10 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.sys.ConfigDelRequest;
-import com.server.entity.sys.ConfigListRequest;
-import com.server.entity.sys.ConfigListResponse;
-import com.server.entity.sys.ConfigSaveRequest;
+import com.hengmall.user.model.sys.ConfigDelRequest;
+import com.hengmall.user.model.sys.ConfigListRequest;
+import com.hengmall.user.model.sys.ConfigListResponse;
+import com.hengmall.user.model.sys.ConfigSaveRequest;
 
 /**
  * 系统配置

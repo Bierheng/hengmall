@@ -1,4 +1,4 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.List;
 
@@ -7,13 +7,13 @@ import org.springframework.stereotype.Service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.server.dao.SysConfigDao;
-import com.server.entity.persistence.Page;
-import com.server.entity.sys.ConfigDelRequest;
-import com.server.entity.sys.ConfigListRequest;
-import com.server.entity.sys.ConfigListResponse;
-import com.server.entity.sys.ConfigSaveRequest;
-import com.server.service.SysConfigService;
+import com.hengmall.user.dao.SysConfigDao;
+import com.hengmall.user.model.persistence.Page;
+import com.hengmall.user.model.sys.ConfigDelRequest;
+import com.hengmall.user.model.sys.ConfigListRequest;
+import com.hengmall.user.model.sys.ConfigListResponse;
+import com.hengmall.user.model.sys.ConfigSaveRequest;
+import com.hengmall.user.service.SysConfigService;
 
 /**
  * 系统配置

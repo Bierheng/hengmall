@@ -1,10 +1,10 @@
-package com.server.service;
+package com.hengmall.user.service;
 
-import com.server.entity.persistence.Page;
-import com.server.entity.sys.ConfigDelRequest;
-import com.server.entity.sys.ConfigListRequest;
-import com.server.entity.sys.ConfigListResponse;
-import com.server.entity.sys.ConfigSaveRequest;
+import com.hengmall.user.model.persistence.Page;
+import com.hengmall.user.model.sys.ConfigDelRequest;
+import com.hengmall.user.model.sys.ConfigListRequest;
+import com.hengmall.user.model.sys.ConfigListResponse;
+import com.hengmall.user.model.sys.ConfigSaveRequest;
 
 /**
  * 系统配置

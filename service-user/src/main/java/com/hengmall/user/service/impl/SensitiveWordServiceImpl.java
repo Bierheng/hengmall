@@ -1,4 +1,4 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.List;
 import java.util.Set;
@@ -8,13 +8,13 @@ import org.springframework.stereotype.Service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.server.dao.SensitiveWordDao;
-import com.server.entity.persistence.Page;
-import com.server.entity.sensitive.SensitiveDelRequest;
-import com.server.entity.sensitive.SensitiveWordNewRequest;
-import com.server.entity.sensitive.SensitiveWordRequest;
-import com.server.entity.sensitive.SensitiveWordResponse;
-import com.server.service.SensitiveWordService;
+import com.hengmall.user.dao.SensitiveWordDao;
+import com.hengmall.user.model.persistence.Page;
+import com.hengmall.user.model.sensitive.SensitiveDelRequest;
+import com.hengmall.user.model.sensitive.SensitiveWordNewRequest;
+import com.hengmall.user.model.sensitive.SensitiveWordRequest;
+import com.hengmall.user.model.sensitive.SensitiveWordResponse;
+import com.hengmall.user.service.SensitiveWordService;
 
 /**
  * 敏感词库serviceImpl

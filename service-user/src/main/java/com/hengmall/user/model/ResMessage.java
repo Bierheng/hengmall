@@ -1,4 +1,4 @@
-package com.server.entity;
+package com.hengmall.user.model;
 
 /**
  * 返回参数对应表 

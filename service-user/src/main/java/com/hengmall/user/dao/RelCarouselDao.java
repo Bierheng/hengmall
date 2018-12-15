@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 import java.util.Map;
@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.RelCarouselEntity;
+import com.hengmall.user.model.RelCarouselEntity;
 
 /**
  * Created by Administrator on 2018/5/24.

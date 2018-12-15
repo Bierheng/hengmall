@@ -1,6 +1,7 @@
-package com.server.entity;
+package com.hengmall.user.model;
 
-import com.hazelcast.nio.serialization.Data;
+
+import com.mysql.fabric.xmlrpc.base.Data;
 
 import io.swagger.annotations.ApiModelProperty;
 

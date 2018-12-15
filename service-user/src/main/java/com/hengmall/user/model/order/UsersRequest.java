@@ -1,6 +1,6 @@
-package com.server.entity.order;
+package com.hengmall.user.model.order;
 
-import com.server.entity.basics.BasicsBean;
+import com.hengmall.user.model.basics.BasicsBean;
 
 /**
  * 派单员

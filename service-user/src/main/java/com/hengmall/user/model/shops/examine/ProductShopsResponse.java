@@ -1,8 +1,8 @@
-package com.server.entity.shops.examine;
+package com.hengmall.user.model.shops.examine;
 
 import java.util.List;
 
-import com.server.entity.common.ProductResponse;
+import com.hengmall.user.model.common.ProductResponse;
 
 import io.swagger.annotations.ApiModelProperty;
 

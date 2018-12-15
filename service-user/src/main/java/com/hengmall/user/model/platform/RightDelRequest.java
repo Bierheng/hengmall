@@ -1,4 +1,4 @@
-package com.server.entity.platform;
+package com.hengmall.user.model.platform;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

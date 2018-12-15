@@ -1,21 +1,21 @@
-package com.server.service;
+package com.hengmall.user.service;
 
 import java.util.List;
 
-import com.server.entity.ApplyRefundReq;
-import com.server.entity.DataTablesResult;
-import com.server.entity.Result;
-import com.server.entity.SOrderExtraEntity;
-import com.server.entity.order.DispatchRequest;
-import com.server.entity.order.DispatchResponse;
-import com.server.entity.order.OrderDistributionRequest;
-import com.server.entity.order.OrderDistributionResponse;
-import com.server.entity.order.OrderLiveRequest;
-import com.server.entity.order.OrderLiveResponse;
-import com.server.entity.order.SaveUserRequest;
-import com.server.entity.order.UsersRequest;
-import com.server.entity.order.UsersResponse;
-import com.server.entity.persistence.Page;
+import com.hengmall.user.model.ApplyRefundReq;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.Result;
+import com.hengmall.user.model.SOrderExtraEntity;
+import com.hengmall.user.model.order.DispatchRequest;
+import com.hengmall.user.model.order.DispatchResponse;
+import com.hengmall.user.model.order.OrderDistributionRequest;
+import com.hengmall.user.model.order.OrderDistributionResponse;
+import com.hengmall.user.model.order.OrderLiveRequest;
+import com.hengmall.user.model.order.OrderLiveResponse;
+import com.hengmall.user.model.order.SaveUserRequest;
+import com.hengmall.user.model.order.UsersRequest;
+import com.hengmall.user.model.order.UsersResponse;
+import com.hengmall.user.model.persistence.Page;
 
 public interface OrderService {
 		

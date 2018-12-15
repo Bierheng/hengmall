@@ -1,4 +1,4 @@
-package com.server.controller.rest;
+package com.hengmall.user.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSONObject;
-import com.github.pagehelper.StringUtil;
-import com.server.entity.ShopsLocation;
-import com.server.entity.SupplierLocation;
-import com.server.entity.api.Ajax;
-import com.server.service.OrderLocationService;
-import com.server.service.TopicService;
-import com.server.utils.CommonUtils;
-import com.server.utils.HttpReqUtil;
+import com.github.pagehelper.util.StringUtil;
+import com.hengmall.user.model.ShopsLocation;
+import com.hengmall.user.model.SupplierLocation;
+import com.hengmall.user.model.api.Ajax;
+import com.hengmall.user.service.OrderLocationService;
+import com.hengmall.user.service.TopicService;
+import com.hengmall.user.util.CommonUtils;
+import com.hengmall.user.util.HttpReqUtil;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

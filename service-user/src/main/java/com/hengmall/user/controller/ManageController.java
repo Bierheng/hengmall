@@ -1,4 +1,4 @@
-package com.server.controller.rest;
+package com.hengmall.user.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,20 +11,19 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSONObject;
-import com.server.controller.BaseController;
-import com.server.entity.DataTablesResult;
-import com.server.entity.DelBean;
-import com.server.entity.RelCarouselEntity;
-import com.server.entity.Result;
-import com.server.entity.SCouponEntity;
-import com.server.entity.TbProductTag;
-import com.server.entity.api.Ajax;
-import com.server.entity.manage.product.ListProductReq;
-import com.server.entity.manage.product.ListProductResp;
-import com.server.entity.manage.product.ProductBean;
-import com.server.entity.manage.product.ProductIdReq;
-import com.server.entity.manage.product.ProductReq;
-import com.server.service.ProductService;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.DelBean;
+import com.hengmall.user.model.RelCarouselEntity;
+import com.hengmall.user.model.Result;
+import com.hengmall.user.model.SCouponEntity;
+import com.hengmall.user.model.TbProductTag;
+import com.hengmall.user.model.api.Ajax;
+import com.hengmall.user.model.manage.product.ListProductReq;
+import com.hengmall.user.model.manage.product.ListProductResp;
+import com.hengmall.user.model.manage.product.ProductBean;
+import com.hengmall.user.model.manage.product.ProductIdReq;
+import com.hengmall.user.model.manage.product.ProductReq;
+import com.hengmall.user.service.ProductService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -32,7 +31,7 @@ import io.swagger.annotations.ApiOperation;
 @Api(value = "商城后台-商品管理接口", description = "商城后台(pc后台，小程序代理和供应商后台管理)-商品管理接口")
 @RestController
 @RequestMapping("manage/product/")
-public class ManageController extends BaseController {
+public class ManageController {
 	private static final Logger logger = LoggerFactory.getLogger(ManageController.class);
 
 	@Autowired

@@ -1,4 +1,4 @@
-package com.server.entity;
+package com.hengmall.user.model;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

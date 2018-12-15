@@ -1,4 +1,4 @@
-package com.server.entity.file;
+package com.hengmall.user.model.file;
 
 import io.swagger.annotations.ApiModelProperty;
 

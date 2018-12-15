@@ -1,6 +1,6 @@
-package com.server.entity.aboutUs;
+package com.hengmall.user.model.aboutUs;
 
-import com.server.entity.basics.BasicsSaveBean;
+import com.hengmall.user.model.basics.BasicsSaveBean;
 
 
 /**

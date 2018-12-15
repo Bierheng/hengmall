@@ -1,4 +1,4 @@
-package com.server.controller.rest;
+package com.hengmall.user.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,13 +9,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.server.controller.BaseController;
-import com.server.entity.api.Ajax;
-import com.server.entity.file.UploadFileReq;
-import com.server.entity.file.UploadFileResq;
-import com.server.entity.manage.product.ListProductResp;
-import com.server.entity.manage.product.UploadProductReq;
-import com.server.entity.manage.product.UploadProductResp;
+import com.hengmall.user.model.api.Ajax;
+import com.hengmall.user.model.file.UploadFileReq;
+import com.hengmall.user.model.file.UploadFileResq;
+import com.hengmall.user.model.manage.product.ListProductResp;
+import com.hengmall.user.model.manage.product.UploadProductReq;
+import com.hengmall.user.model.manage.product.UploadProductResp;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -23,7 +22,7 @@ import io.swagger.annotations.ApiOperation;
 @Api(value = "文件上传", description = "文件上传")
 @RestController
 @RequestMapping("file/api/")
-public class FileController extends BaseController {
+public class FileController {
 	private static final Logger logger = LoggerFactory.getLogger(FileController.class);
 
 	/**

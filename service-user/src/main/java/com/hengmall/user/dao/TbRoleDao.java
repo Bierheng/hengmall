@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.TbRole;
+import com.hengmall.user.model.TbRole;
 
 /**
  * Created by  wuhengbin on 2018/5/24.

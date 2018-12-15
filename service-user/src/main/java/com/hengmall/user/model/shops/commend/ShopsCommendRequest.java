@@ -1,4 +1,4 @@
-package com.server.entity.shops.commend;
+package com.hengmall.user.model.shops.commend;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

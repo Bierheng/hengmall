@@ -1,11 +1,11 @@
-package com.server.entity.shops;
+package com.hengmall.user.model.shops;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-import com.server.entity.basics.BasicsSaveBean;
+import com.hengmall.user.model.basics.BasicsSaveBean;
 
 import io.swagger.annotations.ApiModelProperty;
 

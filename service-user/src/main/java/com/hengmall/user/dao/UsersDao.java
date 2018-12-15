@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.Map;
 
@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Update;
 import org.apache.ibatis.mapping.StatementType;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.UsersEntity;
+import com.hengmall.user.model.UsersEntity;
 
 /**
  * Created by Administrator on 2018/5/24.

@@ -1,4 +1,4 @@
-package com.server.utils;
+package com.hengmall.user.util;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -8,11 +8,13 @@ import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-import org.dom4j.io.SAXReader;
 import org.dom4j.Document;
 import org.dom4j.Element;
+import org.dom4j.io.SAXReader;
 
 public class PayUtil {
 

@@ -1,8 +1,8 @@
-package com.server.service;
+package com.hengmall.user.service;
 
-import com.server.entity.persistence.Page;
-import com.server.entity.record.ProfitListRequest;
-import com.server.entity.record.ProfitResponse;
+import com.hengmall.user.model.persistence.Page;
+import com.hengmall.user.model.record.ProfitListRequest;
+import com.hengmall.user.model.record.ProfitResponse;
 
 /**
  * 流水记录

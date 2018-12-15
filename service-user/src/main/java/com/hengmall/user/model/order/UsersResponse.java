@@ -1,4 +1,4 @@
-package com.server.entity.order;
+package com.hengmall.user.model.order;
 
 import io.swagger.annotations.ApiModelProperty;
 

@@ -1,8 +1,8 @@
-package com.server.entity.manage.product;
+package com.hengmall.user.model.manage.product;
 
 import java.util.List;
 
-import com.server.entity.manage.PageResq;
+import com.hengmall.user.model.manage.PageResq;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

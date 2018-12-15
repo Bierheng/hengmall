@@ -1,10 +1,10 @@
-package com.server.service;
+package com.hengmall.user.service;
 
 import java.util.List;
 
-import com.server.entity.DataTablesResult;
-import com.server.entity.TbLog;
-import com.server.entity.TbShiroFilter;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.TbLog;
+import com.hengmall.user.model.TbShiroFilter;
 
 /**
  * @author wuhengbin

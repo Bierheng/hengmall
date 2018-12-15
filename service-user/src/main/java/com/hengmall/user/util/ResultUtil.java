@@ -1,7 +1,7 @@
-package com.server.utils;
+package com.hengmall.user.util;
 
 
-import com.server.entity.Result;
+import com.hengmall.user.model.Result;
 
 /**
  * @author wuhengbin

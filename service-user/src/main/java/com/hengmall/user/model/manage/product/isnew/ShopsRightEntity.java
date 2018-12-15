@@ -1,4 +1,4 @@
-package com.server.entity.manage.product.isnew;
+package com.hengmall.user.model.manage.product.isnew;
 
 import io.swagger.annotations.ApiModelProperty;
 

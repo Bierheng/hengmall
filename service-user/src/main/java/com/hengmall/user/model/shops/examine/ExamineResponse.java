@@ -1,10 +1,10 @@
-package com.server.entity.shops.examine;
+package com.hengmall.user.model.shops.examine;
 
 import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.server.entity.persistence.DictMessage;
-import com.server.entity.shops.commend.ShopsCommendResponse;
+import com.hengmall.user.model.persistence.DictMessage;
+import com.hengmall.user.model.shops.commend.ShopsCommendResponse;
 
 import io.swagger.annotations.ApiModelProperty;
 

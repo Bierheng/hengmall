@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 import java.util.Set;
@@ -11,9 +11,9 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.tigLibrary.Product;
-import com.server.entity.tigLibrary.TigLibraryAddReq;
-import com.server.entity.tigLibrary.TigLibraryRes;
+import com.hengmall.user.model.tigLibrary.Product;
+import com.hengmall.user.model.tigLibrary.TigLibraryAddReq;
+import com.hengmall.user.model.tigLibrary.TigLibraryRes;
 
 /**
  * 标签库管理 Dao

@@ -1,4 +1,4 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.List;
 
@@ -7,11 +7,11 @@ import org.springframework.stereotype.Service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.server.dao.TbProfitDao;
-import com.server.entity.persistence.Page;
-import com.server.entity.record.ProfitListRequest;
-import com.server.entity.record.ProfitResponse;
-import com.server.service.TbProfitService;
+import com.hengmall.user.dao.TbProfitDao;
+import com.hengmall.user.model.persistence.Page;
+import com.hengmall.user.model.record.ProfitListRequest;
+import com.hengmall.user.model.record.ProfitResponse;
+import com.hengmall.user.service.TbProfitService;
 
 /**
  * 流水记录

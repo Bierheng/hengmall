@@ -1,4 +1,4 @@
-package com.server.entity.persistence;
+package com.hengmall.user.model.persistence;
 
 import java.util.List;
 

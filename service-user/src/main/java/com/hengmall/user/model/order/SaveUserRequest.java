@@ -1,4 +1,4 @@
-package com.server.entity.order;
+package com.hengmall.user.model.order;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

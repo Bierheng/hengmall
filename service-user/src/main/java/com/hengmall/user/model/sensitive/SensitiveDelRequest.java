@@ -1,4 +1,4 @@
-package com.server.entity.sensitive;
+package com.hengmall.user.model.sensitive;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

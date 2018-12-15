@@ -1,4 +1,4 @@
-package com.server.entity.manage;
+package com.hengmall.user.model.manage;
 
 import io.swagger.annotations.ApiModelProperty;
 

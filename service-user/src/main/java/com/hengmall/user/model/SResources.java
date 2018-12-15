@@ -1,4 +1,4 @@
-package com.server.entity;
+package com.hengmall.user.model;
 
 /**
  * 特别用于返回给后台商品页面图片数据的特殊格式模版

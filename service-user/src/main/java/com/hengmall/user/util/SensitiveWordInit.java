@@ -1,4 +1,4 @@
-package com.server.utils;
+package com.hengmall.user.util;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -8,7 +8,7 @@ import java.util.Set;
 import org.springframework.web.context.ContextLoader;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.server.service.SensitiveWordService;
+import com.hengmall.user.service.SensitiveWordService;
 
 /**
  * @Description: 初始化敏感词库，将敏感词加入到HashMap中，构建DFA算法模型

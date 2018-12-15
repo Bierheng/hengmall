@@ -1,14 +1,14 @@
-package com.server.entity.manage.product;
+package com.hengmall.user.model.manage.product;
 
 import java.util.Date;
 import java.util.List;
 
-import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONArray;
-import com.server.entity.manage.PageReq;
-import com.server.entity.manage.product.isnew.ShopsRightEntity;
-import com.server.entity.platform.StateResponse;
-import com.server.entity.tigLibrary.TigLibraryRes;
+import com.alibaba.fastjson.JSONObject;
+import com.hengmall.user.model.manage.PageReq;
+import com.hengmall.user.model.manage.product.isnew.ShopsRightEntity;
+import com.hengmall.user.model.platform.StateResponse;
+import com.hengmall.user.model.tigLibrary.TigLibraryRes;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

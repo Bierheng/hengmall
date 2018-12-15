@@ -1,11 +1,11 @@
-package com.server.service;
+package com.hengmall.user.service;
 
 
 import java.util.List;
 
-import com.server.entity.aboutUs.AboutUsDelRequest;
-import com.server.entity.aboutUs.AboutUsResponse;
-import com.server.entity.aboutUs.AboutUsSaveRequest;
+import com.hengmall.user.model.aboutUs.AboutUsDelRequest;
+import com.hengmall.user.model.aboutUs.AboutUsResponse;
+import com.hengmall.user.model.aboutUs.AboutUsSaveRequest;
 
 /**
  * 关于我们

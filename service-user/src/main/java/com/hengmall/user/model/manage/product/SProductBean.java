@@ -1,10 +1,10 @@
-package com.server.entity.manage.product;
+package com.hengmall.user.model.manage.product;
 
 import java.util.Date;
 
-import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONArray;
-import com.server.entity.manage.PageReq;
+import com.alibaba.fastjson.JSONObject;
+import com.hengmall.user.model.manage.PageReq;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

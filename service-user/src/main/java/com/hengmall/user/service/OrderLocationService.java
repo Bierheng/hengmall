@@ -1,7 +1,7 @@
-package com.server.service;
+package com.hengmall.user.service;
 
 import com.alibaba.fastjson.JSONObject;
-import com.server.entity.ShopsLocation;
+import com.hengmall.user.model.ShopsLocation;
 
 public interface OrderLocationService {
 

@@ -1,12 +1,12 @@
-package com.server.service;
+package com.hengmall.user.service;
 
 import java.util.Set;
 
-import com.server.entity.persistence.Page;
-import com.server.entity.sensitive.SensitiveDelRequest;
-import com.server.entity.sensitive.SensitiveWordNewRequest;
-import com.server.entity.sensitive.SensitiveWordRequest;
-import com.server.entity.sensitive.SensitiveWordResponse;
+import com.hengmall.user.model.persistence.Page;
+import com.hengmall.user.model.sensitive.SensitiveDelRequest;
+import com.hengmall.user.model.sensitive.SensitiveWordNewRequest;
+import com.hengmall.user.model.sensitive.SensitiveWordRequest;
+import com.hengmall.user.model.sensitive.SensitiveWordResponse;
 
 /**
  * 敏感词库service

@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.SCategory;
-import com.server.entity.SCategoryEntity;
-import com.server.entity.TbGoodsTag;
+import com.hengmall.user.model.SCategory;
+import com.hengmall.user.model.SCategoryEntity;
+import com.hengmall.user.model.TbGoodsTag;
 
 /**
  * Created by Administrator on 2018/5/24.

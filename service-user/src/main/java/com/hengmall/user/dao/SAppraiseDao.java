@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 import java.util.Map;
@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.SAppraiseEntity;
+import com.hengmall.user.model.SAppraiseEntity;
 
 /**
  * Created by Administrator on 2018/5/24.

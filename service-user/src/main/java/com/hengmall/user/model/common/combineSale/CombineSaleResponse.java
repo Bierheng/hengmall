@@ -1,4 +1,4 @@
-package com.server.entity.common.combineSale;
+package com.hengmall.user.model.common.combineSale;
 
 import java.util.Date;
 import java.util.List;

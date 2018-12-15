@@ -1,6 +1,6 @@
-package com.server.entity.common.combineSale;
+package com.hengmall.user.model.common.combineSale;
 
-import com.server.entity.basics.BasicsSaveBean;
+import com.hengmall.user.model.basics.BasicsSaveBean;
 
 import io.swagger.annotations.ApiModelProperty;
 

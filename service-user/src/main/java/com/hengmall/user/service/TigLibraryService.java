@@ -1,10 +1,10 @@
-package com.server.service;
+package com.hengmall.user.service;
 
 import java.util.List;
 
-import com.server.entity.tigLibrary.TigLibraryRes;
-import com.server.entity.tigLibrary.TigLibraryAddReq;
-import com.server.entity.tigLibrary.TigLibraryDelReq;
+import com.hengmall.user.model.tigLibrary.TigLibraryAddReq;
+import com.hengmall.user.model.tigLibrary.TigLibraryDelReq;
+import com.hengmall.user.model.tigLibrary.TigLibraryRes;
 
 /**
  * 标签库管理 Service

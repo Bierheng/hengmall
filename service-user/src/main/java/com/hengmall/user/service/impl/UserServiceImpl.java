@@ -1,4 +1,4 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -15,24 +15,24 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.server.dao.TbPermissionDao;
-import com.server.dao.TbRoleDao;
-import com.server.dao.TbRolePermDao;
-import com.server.dao.TbUserDao;
-import com.server.dao.UsersDao;
-import com.server.dao.WalletDetailsDao;
-import com.server.dto.RoleDto;
-import com.server.entity.DataTablesResult;
-import com.server.entity.TbPermission;
-import com.server.entity.TbRole;
-import com.server.entity.TbRolePerm;
-import com.server.entity.TbUser;
-import com.server.entity.UsersEntity;
-import com.server.exception.XmallException;
-import com.server.service.UserService;
-import com.server.utils.JedisConnectUtil;
-import com.server.utils.MD5Util;
-import com.server.utils.config.Global;
+import com.hengmall.user.dao.TbPermissionDao;
+import com.hengmall.user.dao.TbRoleDao;
+import com.hengmall.user.dao.TbRolePermDao;
+import com.hengmall.user.dao.TbUserDao;
+import com.hengmall.user.dao.UsersDao;
+import com.hengmall.user.dao.WalletDetailsDao;
+import com.hengmall.user.dto.RoleDto;
+import com.hengmall.user.exception.XmallException;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.TbPermission;
+import com.hengmall.user.model.TbRole;
+import com.hengmall.user.model.TbRolePerm;
+import com.hengmall.user.model.TbUser;
+import com.hengmall.user.model.UsersEntity;
+import com.hengmall.user.service.UserService;
+import com.hengmall.user.util.JedisConnectUtil;
+import com.hengmall.user.util.MD5Util;
+import com.hengmall.user.util.config.Global;
 
 /**
  * @author wuhengbin

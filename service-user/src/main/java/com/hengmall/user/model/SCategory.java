@@ -1,4 +1,4 @@
-package com.server.entity;
+package com.hengmall.user.model;
 
 public class SCategory {
 	

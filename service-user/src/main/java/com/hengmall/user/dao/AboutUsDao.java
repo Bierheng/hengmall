@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.aboutUs.AboutUsDelRequest;
-import com.server.entity.aboutUs.AboutUsResponse;
-import com.server.entity.aboutUs.AboutUsSaveRequest;
+import com.hengmall.user.model.aboutUs.AboutUsDelRequest;
+import com.hengmall.user.model.aboutUs.AboutUsResponse;
+import com.hengmall.user.model.aboutUs.AboutUsSaveRequest;
 
 /**
  * 关于我们

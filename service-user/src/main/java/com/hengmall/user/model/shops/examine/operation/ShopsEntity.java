@@ -1,6 +1,6 @@
-package com.server.entity.shops.examine.operation;
+package com.hengmall.user.model.shops.examine.operation;
 
-import com.server.entity.basics.BasicsSaveBean;
+import com.hengmall.user.model.basics.BasicsSaveBean;
 
 import io.swagger.annotations.ApiModelProperty;
 

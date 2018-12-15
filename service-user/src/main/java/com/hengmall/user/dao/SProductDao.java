@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 import java.util.Map;
@@ -11,18 +11,16 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.RelProductCategoryEntity;
-import com.server.entity.SProductEntity;
-import com.server.entity.TbGoodsTag;
-import com.server.entity.TbGoodsTagBean;
-import com.server.entity.TbProductTag;
-import com.server.entity.api.ProductListResp;
-import com.server.entity.common.combineSale.CombineSaleRequest;
-import com.server.entity.common.combineSale.CombineSaleResponse;
-import com.server.entity.manage.product.ProductBean2;
-import com.server.entity.manage.product.ProductDetailBean;
-import com.server.entity.manage.product.SProductBean;
-import com.server.entity.manage.product.isnew.ShopsRightEntity;
+import com.hengmall.user.model.RelProductCategoryEntity;
+import com.hengmall.user.model.SProductEntity;
+import com.hengmall.user.model.TbGoodsTag;
+import com.hengmall.user.model.TbGoodsTagBean;
+import com.hengmall.user.model.TbProductTag;
+import com.hengmall.user.model.api.ProductListResp;
+import com.hengmall.user.model.manage.product.ProductBean2;
+import com.hengmall.user.model.manage.product.ProductDetailBean;
+import com.hengmall.user.model.manage.product.SProductBean;
+import com.hengmall.user.model.manage.product.isnew.ShopsRightEntity;
 
 /**
  * Created by Administrator on 2018/5/24.

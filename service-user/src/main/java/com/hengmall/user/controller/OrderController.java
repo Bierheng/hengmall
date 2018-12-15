@@ -1,14 +1,14 @@
-package com.server.controller.rest;
+package com.hengmall.user.controller;
 
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.transaction.Transactional;
 import javax.validation.Valid;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -17,28 +17,28 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSONObject;
-import com.server.entity.ApplyRefund;
-import com.server.entity.ApplyRefundReq;
-import com.server.entity.DataTablesResult;
-import com.server.entity.Result;
-import com.server.entity.SOrderEntity;
-import com.server.entity.SOrderExtraEntity;
-import com.server.entity.api.Ajax;
-import com.server.entity.order.DispatchRequest;
-import com.server.entity.order.DispatchResponse;
-import com.server.entity.order.OrderDistributionRequest;
-import com.server.entity.order.OrderDistributionResponse;
-import com.server.entity.order.OrderLiveRequest;
-import com.server.entity.order.OrderLiveResponse;
-import com.server.entity.order.SaveUserRequest;
-import com.server.entity.order.UsersRequest;
-import com.server.entity.order.UsersResponse;
-import com.server.entity.persistence.Page;
-import com.server.service.OrderService;
-import com.server.service.UserService;
-import com.server.utils.HttpReqUtil;
-import com.server.utils.JedisConnectUtil;
-import com.server.utils.ResultUtil;
+import com.hengmall.user.model.ApplyRefund;
+import com.hengmall.user.model.ApplyRefundReq;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.Result;
+import com.hengmall.user.model.SOrderEntity;
+import com.hengmall.user.model.SOrderExtraEntity;
+import com.hengmall.user.model.api.Ajax;
+import com.hengmall.user.model.order.DispatchRequest;
+import com.hengmall.user.model.order.DispatchResponse;
+import com.hengmall.user.model.order.OrderDistributionRequest;
+import com.hengmall.user.model.order.OrderDistributionResponse;
+import com.hengmall.user.model.order.OrderLiveRequest;
+import com.hengmall.user.model.order.OrderLiveResponse;
+import com.hengmall.user.model.order.SaveUserRequest;
+import com.hengmall.user.model.order.UsersRequest;
+import com.hengmall.user.model.order.UsersResponse;
+import com.hengmall.user.model.persistence.Page;
+import com.hengmall.user.service.OrderService;
+import com.hengmall.user.service.UserService;
+import com.hengmall.user.util.HttpReqUtil;
+import com.hengmall.user.util.JedisConnectUtil;
+import com.hengmall.user.util.ResultUtil;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

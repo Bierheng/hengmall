@@ -1,4 +1,4 @@
-package com.server.entity.platform;
+package com.hengmall.user.model.platform;
 
 import java.util.ArrayList;
 import java.util.Date;

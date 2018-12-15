@@ -1,7 +1,6 @@
-package com.server.controller.rest;
+package com.hengmall.user.controller;
 
 import java.util.List;
-
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -10,12 +9,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.server.entity.DataTablesResult;
-import com.server.entity.Result;
-import com.server.entity.TbShiroFilter;
-import com.server.entity.TbUser;
-import com.server.service.SystemService;
-import com.server.utils.ResultUtil;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.Result;
+import com.hengmall.user.model.TbShiroFilter;
+import com.hengmall.user.model.TbUser;
+import com.hengmall.user.service.SystemService;
+import com.hengmall.user.util.ResultUtil;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

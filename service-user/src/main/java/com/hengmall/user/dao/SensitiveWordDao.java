@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 
 import java.util.List;
@@ -9,10 +9,10 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.sensitive.SensitiveDelRequest;
-import com.server.entity.sensitive.SensitiveWordNewRequest;
-import com.server.entity.sensitive.SensitiveWordRequest;
-import com.server.entity.sensitive.SensitiveWordResponse;
+import com.hengmall.user.model.sensitive.SensitiveDelRequest;
+import com.hengmall.user.model.sensitive.SensitiveWordNewRequest;
+import com.hengmall.user.model.sensitive.SensitiveWordRequest;
+import com.hengmall.user.model.sensitive.SensitiveWordResponse;
 
 /**
  * 敏感词库 Dao

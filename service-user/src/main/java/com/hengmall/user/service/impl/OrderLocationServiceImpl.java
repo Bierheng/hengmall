@@ -1,4 +1,4 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.List;
 
@@ -9,10 +9,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.alibaba.fastjson.JSONObject;
-import com.server.dao.OrderLocationDao;
-import com.server.entity.ShopsLocation;
-import com.server.entity.TbSupplier;
-import com.server.service.OrderLocationService;
+import com.hengmall.user.dao.OrderLocationDao;
+import com.hengmall.user.model.ShopsLocation;
+import com.hengmall.user.model.TbSupplier;
+import com.hengmall.user.service.OrderLocationService;
 
 @Service	
 public class OrderLocationServiceImpl implements OrderLocationService {

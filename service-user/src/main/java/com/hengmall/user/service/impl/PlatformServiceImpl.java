@@ -1,4 +1,4 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.List;
 
@@ -7,32 +7,32 @@ import org.springframework.stereotype.Service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.server.dao.PlatformDao;
-import com.server.dao.ShopsDao;
-import com.server.entity.persistence.Page;
-import com.server.entity.platform.OrderDelRequest;
-import com.server.entity.platform.OrderRequest;
-import com.server.entity.platform.OrderResponse;
-import com.server.entity.platform.OrderSaveRequest;
-import com.server.entity.platform.PlatformDelRequest;
-import com.server.entity.platform.PlatformLvResponse;
-import com.server.entity.platform.PlatformRequest;
-import com.server.entity.platform.PlatformResponse;
-import com.server.entity.platform.PlatformSaveRequest;
-import com.server.entity.platform.RightDelRequest;
-import com.server.entity.platform.RightRequest;
-import com.server.entity.platform.RightResponse;
-import com.server.entity.platform.RightSaveRequest;
-import com.server.entity.platform.StateDelRequest;
-import com.server.entity.platform.StateRequest;
-import com.server.entity.platform.StateResponse;
-import com.server.entity.platform.StateSaveRequest;
-import com.server.entity.platform.TagDelRequest;
-import com.server.entity.platform.TagListRequest;
-import com.server.entity.platform.TagListResponse;
-import com.server.entity.platform.TagSaveRequest;
-import com.server.service.PlatformService;
-import com.server.service.common.BaseService;
+import com.hengmall.user.dao.PlatformDao;
+import com.hengmall.user.dao.ShopsDao;
+import com.hengmall.user.model.persistence.Page;
+import com.hengmall.user.model.platform.OrderDelRequest;
+import com.hengmall.user.model.platform.OrderRequest;
+import com.hengmall.user.model.platform.OrderResponse;
+import com.hengmall.user.model.platform.OrderSaveRequest;
+import com.hengmall.user.model.platform.PlatformDelRequest;
+import com.hengmall.user.model.platform.PlatformLvResponse;
+import com.hengmall.user.model.platform.PlatformRequest;
+import com.hengmall.user.model.platform.PlatformResponse;
+import com.hengmall.user.model.platform.PlatformSaveRequest;
+import com.hengmall.user.model.platform.RightDelRequest;
+import com.hengmall.user.model.platform.RightRequest;
+import com.hengmall.user.model.platform.RightResponse;
+import com.hengmall.user.model.platform.RightSaveRequest;
+import com.hengmall.user.model.platform.StateDelRequest;
+import com.hengmall.user.model.platform.StateRequest;
+import com.hengmall.user.model.platform.StateResponse;
+import com.hengmall.user.model.platform.StateSaveRequest;
+import com.hengmall.user.model.platform.TagDelRequest;
+import com.hengmall.user.model.platform.TagListRequest;
+import com.hengmall.user.model.platform.TagListResponse;
+import com.hengmall.user.model.platform.TagSaveRequest;
+import com.hengmall.user.service.PlatformService;
+import com.hengmall.user.service.common.BaseService;
 
 /**
  * 平台管理service

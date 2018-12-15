@@ -1,16 +1,16 @@
-package com.server.service;
+package com.hengmall.user.service;
 
 import com.alibaba.fastjson.JSONObject;
-import com.server.entity.DataTablesResult;
-import com.server.entity.RelCarouselEntity;
-import com.server.entity.Result;
-import com.server.entity.SCouponEntity;
-import com.server.entity.api.Ajax;
-import com.server.entity.manage.product.ListProductReq;
-import com.server.entity.manage.product.ListProductResp;
-import com.server.entity.manage.product.ProductBean;
-import com.server.entity.manage.product.ProductIdReq;
-import com.server.entity.manage.product.ProductReq;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.RelCarouselEntity;
+import com.hengmall.user.model.Result;
+import com.hengmall.user.model.SCouponEntity;
+import com.hengmall.user.model.api.Ajax;
+import com.hengmall.user.model.manage.product.ListProductReq;
+import com.hengmall.user.model.manage.product.ListProductResp;
+import com.hengmall.user.model.manage.product.ProductBean;
+import com.hengmall.user.model.manage.product.ProductIdReq;
+import com.hengmall.user.model.manage.product.ProductReq;
 
 public interface ProductService {
 	/**

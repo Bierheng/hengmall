@@ -1,4 +1,4 @@
-package com.server.entity.shops.shopEntity;
+package com.hengmall.user.model.shops.shopEntity;
 
 import java.util.Date;
 

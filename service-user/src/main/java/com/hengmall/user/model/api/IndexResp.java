@@ -1,11 +1,14 @@
-package com.server.entity.api;
-
-import com.server.entity.SCategoryEntity;
-import com.server.entity.constitute.*;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+package com.hengmall.user.model.api;
 
 import java.util.List;
+
+import com.hengmall.user.model.SCategory;
+import com.hengmall.user.model.constitute.Carousel;
+import com.hengmall.user.model.constitute.RelIndexProduct;
+import com.hengmall.user.model.constitute.RelRecommend;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 
 /**
  * 首页展示

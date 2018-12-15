@@ -1,4 +1,4 @@
-package com.server.entity.aboutUs;
+package com.hengmall.user.model.aboutUs;
 
 
 

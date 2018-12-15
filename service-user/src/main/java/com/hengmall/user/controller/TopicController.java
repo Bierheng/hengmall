@@ -1,4 +1,4 @@
-package com.server.controller.rest;
+package com.hengmall.user.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,20 +12,20 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSONObject;
-import com.github.pagehelper.StringUtil;
-import com.server.entity.Ads;
-import com.server.entity.DataTablesResult;
-import com.server.entity.DelBean;
-import com.server.entity.PraiseReq;
-import com.server.entity.Result;
-import com.server.entity.SAppraiseEntity;
-import com.server.entity.TbTopic;
-import com.server.entity.TbTopicAppraise;
-import com.server.entity.TopicQueryReq;
-import com.server.entity.api.Ajax;
-import com.server.service.TopicService;
-import com.server.utils.CommonUtils;
-import com.server.utils.ResultUtil;
+import com.github.pagehelper.util.StringUtil;
+import com.hengmall.user.model.Ads;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.DelBean;
+import com.hengmall.user.model.PraiseReq;
+import com.hengmall.user.model.Result;
+import com.hengmall.user.model.SAppraiseEntity;
+import com.hengmall.user.model.TbTopic;
+import com.hengmall.user.model.TbTopicAppraise;
+import com.hengmall.user.model.TopicQueryReq;
+import com.hengmall.user.model.api.Ajax;
+import com.hengmall.user.service.TopicService;
+import com.hengmall.user.util.CommonUtils;
+import com.hengmall.user.util.ResultUtil;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

@@ -1,4 +1,4 @@
-package com.server.entity.tigLibrary;
+package com.hengmall.user.model.tigLibrary;
 
 public class Product {
 

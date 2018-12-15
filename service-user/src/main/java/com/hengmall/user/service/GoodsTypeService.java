@@ -1,8 +1,8 @@
-package com.server.service;
+package com.hengmall.user.service;
 
-import com.server.entity.DataTablesResult;
-import com.server.entity.SCategory;
-import com.server.entity.SCategoryEntity;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.SCategory;
+import com.hengmall.user.model.SCategoryEntity;
 
 /**
  * @author wuhengbin

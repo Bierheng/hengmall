@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 import java.util.Set;
@@ -10,8 +10,8 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.TbPermission;
-import com.server.entity.TbUser;
+import com.hengmall.user.model.TbPermission;
+import com.hengmall.user.model.TbUser;
 
 /**
  * Created by  wuhengbin on 2018/5/24.

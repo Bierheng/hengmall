@@ -1,14 +1,14 @@
-package com.server.service;
+package com.hengmall.user.service;
 
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
-import com.server.entity.Ads;
-import com.server.entity.DataTablesResult;
-import com.server.entity.DelBean;
-import com.server.entity.Result;
-import com.server.entity.TbTopic;
-import com.server.entity.TbTopicAppraise;
+import com.hengmall.user.model.Ads;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.DelBean;
+import com.hengmall.user.model.Result;
+import com.hengmall.user.model.TbTopic;
+import com.hengmall.user.model.TbTopicAppraise;
 
 public interface TopicService {
     

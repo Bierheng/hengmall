@@ -1,11 +1,12 @@
-package com.server.entity.api;
-
-import com.alibaba.fastjson.JSONObject;
-import com.server.entity.constitute.ResourceCarousel;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+package com.hengmall.user.model.api;
 
 import java.util.List;
+
+import com.alibaba.fastjson.JSONObject;
+import com.hengmall.user.model.constitute.ResourceCarousel;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 
 /**
  * Created by Administrator on 2018/5/25.

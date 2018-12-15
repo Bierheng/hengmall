@@ -1,4 +1,4 @@
-package com.server.utils;
+package com.hengmall.user.util;
 
 /**
  * Created by juunew on 2017/8/30.

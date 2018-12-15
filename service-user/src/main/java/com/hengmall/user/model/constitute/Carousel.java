@@ -1,4 +1,4 @@
-package com.server.entity.constitute;
+package com.hengmall.user.model.constitute;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

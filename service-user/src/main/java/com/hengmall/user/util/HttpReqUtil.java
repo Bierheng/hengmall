@@ -1,4 +1,4 @@
-package com.server.utils;
+package com.hengmall.user.util;
 
 import java.io.IOException;
 
@@ -18,14 +18,12 @@ import org.apache.http.util.EntityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.server.task.AutoGoodsOnJob;
-
 /**
  * Created by juunew on 2017/9/2.
  */
 public class HttpReqUtil {
 
-	final static Logger logger= LoggerFactory.getLogger(AutoGoodsOnJob.class);
+	final static Logger logger= LoggerFactory.getLogger(HttpReqUtil.class);
 	
 	/**
 	 * 获取客户端IP地址

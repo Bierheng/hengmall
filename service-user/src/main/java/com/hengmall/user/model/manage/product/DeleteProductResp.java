@@ -1,4 +1,4 @@
-package com.server.entity.manage.product;
+package com.hengmall.user.model.manage.product;
 
 import com.alibaba.fastjson.JSONObject;
 import io.swagger.annotations.ApiModel;

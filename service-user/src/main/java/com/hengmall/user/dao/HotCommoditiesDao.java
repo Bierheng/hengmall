@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.HotCommodities;
-import com.server.entity.manage.product.SProductBean;
+import com.hengmall.user.model.HotCommodities;
+import com.hengmall.user.model.manage.product.SProductBean;
 
 /**
  * Created by Administrator on 2018/5/24.

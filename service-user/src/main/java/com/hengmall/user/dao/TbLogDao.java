@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.Ads;
-import com.server.entity.TbLog;
+import com.hengmall.user.model.Ads;
+import com.hengmall.user.model.TbLog;
 
 /**
  * Created by  wuhengbin on 2018/5/24.

@@ -1,6 +1,6 @@
-package com.server.entity.manage.product;
+package com.hengmall.user.model.manage.product;
 
-import com.server.entity.manage.PageReq;
+import com.hengmall.user.model.manage.PageReq;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

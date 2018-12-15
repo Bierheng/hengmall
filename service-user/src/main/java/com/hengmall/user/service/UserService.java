@@ -1,12 +1,12 @@
-package com.server.service;
+package com.hengmall.user.service;
 
 import java.util.List;
 import java.util.Set;
 
-import com.server.entity.DataTablesResult;
-import com.server.entity.TbPermission;
-import com.server.entity.TbRole;
-import com.server.entity.TbUser;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.TbPermission;
+import com.hengmall.user.model.TbRole;
+import com.hengmall.user.model.TbUser;
 
 /**
  * @author  wuhengbin

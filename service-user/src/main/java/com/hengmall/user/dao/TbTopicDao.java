@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 
@@ -10,11 +10,11 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.TbTopic;
-import com.server.entity.TbTopicAppraise;
-import com.server.entity.TbTopicBean;
-import com.server.entity.TbTopicImg;
-import com.server.entity.Users;
+import com.hengmall.user.model.TbTopic;
+import com.hengmall.user.model.TbTopicAppraise;
+import com.hengmall.user.model.TbTopicBean;
+import com.hengmall.user.model.TbTopicImg;
+import com.hengmall.user.model.Users;
 
 /**
  * Created by Administrator on 2018/5/24.

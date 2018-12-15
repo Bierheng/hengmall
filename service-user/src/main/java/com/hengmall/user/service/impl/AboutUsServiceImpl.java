@@ -1,15 +1,15 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.server.dao.AboutUsDao;
-import com.server.entity.aboutUs.AboutUsDelRequest;
-import com.server.entity.aboutUs.AboutUsResponse;
-import com.server.entity.aboutUs.AboutUsSaveRequest;
-import com.server.service.AboutUsService;
+import com.hengmall.user.dao.AboutUsDao;
+import com.hengmall.user.model.aboutUs.AboutUsDelRequest;
+import com.hengmall.user.model.aboutUs.AboutUsResponse;
+import com.hengmall.user.model.aboutUs.AboutUsSaveRequest;
+import com.hengmall.user.service.AboutUsService;
 
 /**
  * 关于我们service

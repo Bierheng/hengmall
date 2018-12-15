@@ -1,8 +1,8 @@
-package com.server.entity.shops;
+package com.hengmall.user.model.shops;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-import com.server.entity.basics.BasicsBean;
+import com.hengmall.user.model.basics.BasicsBean;
 
 import io.swagger.annotations.ApiModelProperty;
 

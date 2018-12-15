@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 import java.util.Map;
@@ -8,11 +8,11 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.CombineDetailsResp;
-import com.server.entity.CombineSaleEntity;
-import com.server.entity.DataTablesResultShops;
-import com.server.entity.SOrderEntity;
-import com.server.entity.SOrderExtraEntity;
+import com.hengmall.user.model.CombineDetailsResp;
+import com.hengmall.user.model.CombineSaleEntity;
+import com.hengmall.user.model.DataTablesResultShops;
+import com.hengmall.user.model.SOrderEntity;
+import com.hengmall.user.model.SOrderExtraEntity;
 
 @Repository
 public interface SOrderDao {

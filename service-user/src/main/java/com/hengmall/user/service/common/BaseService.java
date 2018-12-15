@@ -1,9 +1,9 @@
-package com.server.service.common;
+package com.hengmall.user.service.common;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.server.utils.JedisConnectUtil;
-import com.server.utils.config.Global;
+import com.hengmall.user.util.JedisConnectUtil;
+import com.hengmall.user.util.config.Global;
 
 /**
  * service基类

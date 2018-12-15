@@ -1,4 +1,4 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.server.dao.SCategoryDao;
-import com.server.dao.ShopsDao;
-import com.server.entity.DataTablesResult;
-import com.server.entity.SCategory;
-import com.server.entity.SCategoryEntity;
-import com.server.exception.XmallException;
-import com.server.service.GoodsTypeService;
+import com.hengmall.user.dao.SCategoryDao;
+import com.hengmall.user.dao.ShopsDao;
+import com.hengmall.user.exception.XmallException;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.SCategory;
+import com.hengmall.user.model.SCategoryEntity;
+import com.hengmall.user.service.GoodsTypeService;
 
 @Service
 public class GoodsTypeServiceImpl implements GoodsTypeService {

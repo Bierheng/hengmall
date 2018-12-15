@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 
@@ -8,16 +8,16 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.ApplyRefund;
-import com.server.entity.order.DispatchRequest;
-import com.server.entity.order.DispatchResponse;
-import com.server.entity.order.OrderDistributionRequest;
-import com.server.entity.order.OrderDistributionResponse;
-import com.server.entity.order.OrderLiveRequest;
-import com.server.entity.order.OrderLiveResponse;
-import com.server.entity.order.SaveUserRequest;
-import com.server.entity.order.UsersRequest;
-import com.server.entity.order.UsersResponse;
+import com.hengmall.user.model.ApplyRefund;
+import com.hengmall.user.model.order.DispatchRequest;
+import com.hengmall.user.model.order.DispatchResponse;
+import com.hengmall.user.model.order.OrderDistributionRequest;
+import com.hengmall.user.model.order.OrderDistributionResponse;
+import com.hengmall.user.model.order.OrderLiveRequest;
+import com.hengmall.user.model.order.OrderLiveResponse;
+import com.hengmall.user.model.order.SaveUserRequest;
+import com.hengmall.user.model.order.UsersRequest;
+import com.hengmall.user.model.order.UsersResponse;
 
 /**
  * Created by Administrator on 2018/5/24.

@@ -1,4 +1,4 @@
-package com.server.entity.shops.examine;
+package com.hengmall.user.model.shops.examine;
 
 import io.swagger.annotations.ApiModelProperty;
 

@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 import java.util.Map;
@@ -10,8 +10,8 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.SCouponBean;
-import com.server.entity.SCouponEntity;
+import com.hengmall.user.model.SCouponBean;
+import com.hengmall.user.model.SCouponEntity;
 
 /**
  * wuhengbin on 2018/7/2.

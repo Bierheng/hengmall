@@ -1,4 +1,4 @@
-package com.server.controller.rest;
+package com.hengmall.user.controller;
 
 import java.util.List;
 
@@ -15,13 +15,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.server.entity.api.Ajax;
-import com.server.entity.persistence.Page;
-import com.server.entity.sys.ConfigDelRequest;
-import com.server.entity.sys.ConfigListRequest;
-import com.server.entity.sys.ConfigListResponse;
-import com.server.entity.sys.ConfigSaveRequest;
-import com.server.service.SysConfigService;
+import com.hengmall.user.model.api.Ajax;
+import com.hengmall.user.model.persistence.Page;
+import com.hengmall.user.model.sys.ConfigDelRequest;
+import com.hengmall.user.model.sys.ConfigListRequest;
+import com.hengmall.user.model.sys.ConfigListResponse;
+import com.hengmall.user.model.sys.ConfigSaveRequest;
+import com.hengmall.user.service.SysConfigService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

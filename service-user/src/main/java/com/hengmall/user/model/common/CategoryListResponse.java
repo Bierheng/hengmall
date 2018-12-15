@@ -1,4 +1,4 @@
-package com.server.entity.common;
+package com.hengmall.user.model.common;
 
 import java.util.Date;
 

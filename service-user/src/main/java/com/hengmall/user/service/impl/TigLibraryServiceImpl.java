@@ -1,4 +1,4 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -15,14 +15,14 @@ import org.springframework.transaction.support.DefaultTransactionDefinition;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.server.dao.TigLibraryDao;
-import com.server.entity.tigLibrary.Product;
-import com.server.entity.tigLibrary.TigLibraryAddReq;
-import com.server.entity.tigLibrary.TigLibraryDelReq;
-import com.server.entity.tigLibrary.TigLibraryRes;
-import com.server.service.TigLibraryService;
-import com.server.utils.CommonUtils;
-import com.server.utils.JedisConnectUtil;
+import com.hengmall.user.dao.TigLibraryDao;
+import com.hengmall.user.model.tigLibrary.Product;
+import com.hengmall.user.model.tigLibrary.TigLibraryAddReq;
+import com.hengmall.user.model.tigLibrary.TigLibraryDelReq;
+import com.hengmall.user.model.tigLibrary.TigLibraryRes;
+import com.hengmall.user.service.TigLibraryService;
+import com.hengmall.user.util.CommonUtils;
+import com.hengmall.user.util.JedisConnectUtil;
 
 /**
  * 标签库管理 ServiceImpl

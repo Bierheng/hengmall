@@ -1,13 +1,6 @@
-package com.server.service.qcloud;
+package com.hengmall.user.service.qcloud;
 
-import com.github.qcloudsms.SmsSingleSender;
-import com.github.qcloudsms.SmsSingleSenderResult;
-import com.github.qcloudsms.httpclient.HTTPException;
-import org.json.JSONException;
 import org.springframework.stereotype.Service;
-
-import java.io.IOException;
-import java.util.Properties;
 
 /**
  * 腾讯云短信SDK

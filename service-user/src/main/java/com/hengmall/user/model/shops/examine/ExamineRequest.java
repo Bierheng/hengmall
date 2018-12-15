@@ -1,8 +1,8 @@
-package com.server.entity.shops.examine;
+package com.hengmall.user.model.shops.examine;
 
 import java.util.Date;
 
-import com.server.entity.shops.commend.ShopsCommendRequest;
+import com.hengmall.user.model.shops.commend.ShopsCommendRequest;
 
 import io.swagger.annotations.ApiModelProperty;
 

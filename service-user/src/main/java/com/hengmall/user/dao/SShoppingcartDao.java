@@ -1,10 +1,10 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.api.AddCartReq;
+import com.hengmall.user.model.api.AddCartReq;
 
 @Repository
 public interface SShoppingcartDao {

@@ -1,6 +1,6 @@
-package com.server.entity.platform;
+package com.hengmall.user.model.platform;
 
-import com.server.entity.basics.BasicsBean;
+import com.hengmall.user.model.basics.BasicsBean;
 
 
 /**

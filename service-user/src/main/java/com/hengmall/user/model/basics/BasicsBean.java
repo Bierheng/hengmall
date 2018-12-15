@@ -1,4 +1,4 @@
-package com.server.entity.basics;
+package com.hengmall.user.model.basics;
 
 import java.util.Map;
 

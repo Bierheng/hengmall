@@ -1,4 +1,4 @@
-package com.server.service.impl;
+package com.hengmall.user.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,36 +19,36 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.github.pagehelper.StringUtil;
-import com.server.dao.ApplyRefundDao;
-import com.server.dao.SOrderDao;
-import com.server.entity.ApplyRefund;
-import com.server.entity.ApplyRefundReq;
-import com.server.entity.CombineDetailsResp;
-import com.server.entity.CombineSaleEntity;
-import com.server.entity.DataTablesResult;
-import com.server.entity.DataTablesResultShops;
-import com.server.entity.Result;
-import com.server.entity.SOrderEntity;
-import com.server.entity.SOrderExtraEntity;
-import com.server.entity.order.DispatchRequest;
-import com.server.entity.order.DispatchResponse;
-import com.server.entity.order.OrderDistributionRequest;
-import com.server.entity.order.OrderDistributionResponse;
-import com.server.entity.order.OrderLiveRequest;
-import com.server.entity.order.OrderLiveResponse;
-import com.server.entity.order.SaveUserRequest;
-import com.server.entity.order.UsersRequest;
-import com.server.entity.order.UsersResponse;
-import com.server.entity.persistence.Page;
-import com.server.service.OrderService;
-import com.server.service.UserService;
-import com.server.service.common.BaseService;
-import com.server.utils.CommonUtils;
-import com.server.utils.HttpReqUtil;
-import com.server.utils.JedisConnectUtil;
-import com.server.utils.ResultUtil;
-import com.server.utils.config.Global;
+import com.github.pagehelper.util.StringUtil;
+import com.hengmall.user.dao.ApplyRefundDao;
+import com.hengmall.user.dao.SOrderDao;
+import com.hengmall.user.model.ApplyRefund;
+import com.hengmall.user.model.ApplyRefundReq;
+import com.hengmall.user.model.CombineDetailsResp;
+import com.hengmall.user.model.CombineSaleEntity;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.DataTablesResultShops;
+import com.hengmall.user.model.Result;
+import com.hengmall.user.model.SOrderEntity;
+import com.hengmall.user.model.SOrderExtraEntity;
+import com.hengmall.user.model.order.DispatchRequest;
+import com.hengmall.user.model.order.DispatchResponse;
+import com.hengmall.user.model.order.OrderDistributionRequest;
+import com.hengmall.user.model.order.OrderDistributionResponse;
+import com.hengmall.user.model.order.OrderLiveRequest;
+import com.hengmall.user.model.order.OrderLiveResponse;
+import com.hengmall.user.model.order.SaveUserRequest;
+import com.hengmall.user.model.order.UsersRequest;
+import com.hengmall.user.model.order.UsersResponse;
+import com.hengmall.user.model.persistence.Page;
+import com.hengmall.user.service.OrderService;
+import com.hengmall.user.service.UserService;
+import com.hengmall.user.service.common.BaseService;
+import com.hengmall.user.util.CommonUtils;
+import com.hengmall.user.util.HttpReqUtil;
+import com.hengmall.user.util.JedisConnectUtil;
+import com.hengmall.user.util.ResultUtil;
+import com.hengmall.user.util.config.Global;
 
 @Service
 public class OrderServiceImpl extends BaseService implements OrderService {
@@ -377,7 +377,7 @@ public class OrderServiceImpl extends BaseService implements OrderService {
         String userName = (String)object.get("username");
     	System.out.println(user);
     	int  id = applyRefundReq.getId();
-    	if(StringUtil.isNotEmpty(user)){
+    	if(!StringUtil.isEmpty(user)){
         	System.out.println(token);
         	System.out.println(url);
         	Boolean result2 = userService.judgeRole(token, url);

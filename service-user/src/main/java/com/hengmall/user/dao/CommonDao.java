@@ -1,4 +1,4 @@
-package com.server.dao;
+package com.hengmall.user.dao;
 
 import java.util.List;
 
@@ -9,14 +9,14 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import com.server.entity.common.CategoryListRequest;
-import com.server.entity.common.CategoryListResponse;
-import com.server.entity.common.ProductRequest;
-import com.server.entity.common.ProductResponse;
-import com.server.entity.common.combineSale.CombineSaleDelRequest;
-import com.server.entity.common.combineSale.CombineSaleRequest;
-import com.server.entity.common.combineSale.CombineSaleResponse;
-import com.server.entity.common.combineSale.CombineSaleSaveRequest;
+import com.hengmall.user.model.common.CategoryListRequest;
+import com.hengmall.user.model.common.CategoryListResponse;
+import com.hengmall.user.model.common.ProductRequest;
+import com.hengmall.user.model.common.ProductResponse;
+import com.hengmall.user.model.common.combineSale.CombineSaleDelRequest;
+import com.hengmall.user.model.common.combineSale.CombineSaleRequest;
+import com.hengmall.user.model.common.combineSale.CombineSaleResponse;
+import com.hengmall.user.model.common.combineSale.CombineSaleSaveRequest;
 
 /**
  * 公共Dao
@@ -109,7 +109,7 @@ public interface CommonDao {
 			+ "a.shops_name AS 'name'"
 			+ " FROM "
 			+ "shops_location a")
-	List<com.server.entity.common.combineSale.Select> getShops(CombineSaleRequest combineSaleRequest);
+	List<com.hengmall.user.model.common.combineSale.Select> getShops(CombineSaleRequest combineSaleRequest);
 	
 	
 	/**
@@ -125,7 +125,7 @@ public interface CommonDao {
 			+ " LEFT JOIN s_product p ON a.product_id = p.id"
 			+ " WHERE "
 			+ "a.shops_id = #{shopsId}")
-	List<com.server.entity.common.combineSale.Select> getShopsProduct(@Param("combineSaleRequest") CombineSaleRequest combineSaleRequest,
+	List<com.hengmall.user.model.common.combineSale.Select> getShopsProduct(@Param("combineSaleRequest") CombineSaleRequest combineSaleRequest,
 			@Param("shopsId") String shopsId);
 
 

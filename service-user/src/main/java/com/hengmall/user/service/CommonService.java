@@ -1,24 +1,24 @@
-package com.server.service;
+package com.hengmall.user.service;
 
 import java.util.List;
 
 import com.alibaba.fastjson.JSONObject;
-import com.server.entity.Brands;
-import com.server.entity.DataTablesResult;
-import com.server.entity.FlashSale;
-import com.server.entity.FlashSaleTimeLiness;
-import com.server.entity.Result;
-import com.server.entity.TbGoodsTag;
-import com.server.entity.common.CategoryListRequest;
-import com.server.entity.common.CategoryListResponse;
-import com.server.entity.common.ProductRequest;
-import com.server.entity.common.ProductResponse;
-import com.server.entity.common.combineSale.CombineSaleDelRequest;
-import com.server.entity.common.combineSale.CombineSaleRequest;
-import com.server.entity.common.combineSale.CombineSaleResponse;
-import com.server.entity.common.combineSale.CombineSaleSaveRequest;
-import com.server.entity.manage.product.isnew.ShopsRightEntity;
-import com.server.entity.persistence.Page;
+import com.hengmall.user.model.Brands;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.FlashSale;
+import com.hengmall.user.model.FlashSaleTimeLiness;
+import com.hengmall.user.model.Result;
+import com.hengmall.user.model.TbGoodsTag;
+import com.hengmall.user.model.common.CategoryListRequest;
+import com.hengmall.user.model.common.CategoryListResponse;
+import com.hengmall.user.model.common.ProductRequest;
+import com.hengmall.user.model.common.ProductResponse;
+import com.hengmall.user.model.common.combineSale.CombineSaleDelRequest;
+import com.hengmall.user.model.common.combineSale.CombineSaleRequest;
+import com.hengmall.user.model.common.combineSale.CombineSaleResponse;
+import com.hengmall.user.model.common.combineSale.CombineSaleSaveRequest;
+import com.hengmall.user.model.manage.product.isnew.ShopsRightEntity;
+import com.hengmall.user.model.persistence.Page;
 
 public interface CommonService {
 	

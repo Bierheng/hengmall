@@ -1,6 +1,6 @@
-package com.server.entity.sys;
+package com.hengmall.user.model.sys;
 
-import com.server.entity.basics.BasicsBean;
+import com.hengmall.user.model.basics.BasicsBean;
 
 /**
  * 系统配置列表   request

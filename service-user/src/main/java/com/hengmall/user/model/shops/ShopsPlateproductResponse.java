@@ -1,6 +1,6 @@
-package com.server.entity.shops;
+package com.hengmall.user.model.shops;
 
-import com.server.entity.persistence.DictMessage;
+import com.hengmall.user.model.persistence.DictMessage;
 
 import io.swagger.annotations.ApiModelProperty;
 

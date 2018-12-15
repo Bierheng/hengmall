@@ -1,4 +1,4 @@
-package com.server.controller.rest;
+package com.hengmall.user.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.server.entity.DataTablesResult;
-import com.server.entity.DelBean;
-import com.server.entity.Result;
-import com.server.entity.SCategoryEntity;
-import com.server.service.GoodsTypeService;
-import com.server.utils.ResultUtil;
+import com.hengmall.user.model.DataTablesResult;
+import com.hengmall.user.model.DelBean;
+import com.hengmall.user.model.Result;
+import com.hengmall.user.model.SCategoryEntity;
+import com.hengmall.user.service.GoodsTypeService;
+import com.hengmall.user.util.ResultUtil;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
