@@ -2,15 +2,15 @@ package com.hengmall.user.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.constitute.RelRecommend;
 
 /**
  * Created by Administrator on 2018/5/24.
  */
-@Repository
+@Mapper
 public interface RelRecommendDao {
 
 	// 查询

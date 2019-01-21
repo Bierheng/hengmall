@@ -546,8 +546,6 @@ public class StoreController {
         //业务状态码：0：普通商品信息，1：限时抢购商品信息，2：拼单
         int status = productInfoReq.getStatus();
 
-
-
         //根据请求的商品ID查询数据
         SProductEntity sProductEntity = sProductDao.queryById(id);
         if (PublicUtil.isEmpty(sProductEntity)) throw new Exception("无此商品");
@@ -557,7 +555,6 @@ public class StoreController {
         ShopsInfo shopsInfo = shopsDao.queryById(shops_id);
         String state_name = sProductDao.queryStateNameById(sProductEntity.getState_id()); 
         String tagids = sProductEntity.getTagids();
-        
         
         int shops_product_id = sProductEntity.getShops_product_id();
         //根据商品ID查询是否有收藏
@@ -588,25 +585,6 @@ public class StoreController {
         	shopsCommend.setGroup_price(shopsCommend.getGroup_price()*1.0/100);
         }
         
-        
-        //需要新的商品标签起作用之后才能正常使用,通过标签来判断推荐的商品，猜你喜欢
-//        JSONArray tagIdsArr = JSONObject.parseArray(tagids);
-//        String tagIdsStr = tagIdsArr.getString(0);
-//        System.out.println("传入的标签参数"+tagIdsStr);
-//        
-//        List<SProductEntity> productList = sProductDao.queryByTagIds(tagIdsStr);
-//        List<ProductListResp> sProductEntities = new ArrayList<>();
-//        ProductListResp productListResp = new ProductListResp();
-//        if(productList.size() > 0){
-//	        for(SProductEntity productInfo : productList){
-//	        	productListResp = new ProductListResp();
-//	        	productListResp.setHeadimg(productInfo.getHeadimg());
-//	        	productListResp.setId(productInfo.getId());
-//	        	productListResp.setName(productInfo.getName());
-//	        	productListResp.setPrice(productInfo.getPrice()*1.0/100);
-//	        	sProductEntities.add(productListResp);
-//	        }
-//        }
         // 根据个人浏览记录生成猜你喜欢
         List<MyFootprintListResp> sProductEntities = sProductDao.queryGuessByUserId(user_id);
         
@@ -655,12 +633,6 @@ public class StoreController {
             //根据flash_sale_id 和 user_id 查询 该用户是否已经抢购过该商品
             SuccessKilledEntity isKilled = successKilledDao.findByFlashSaleId(user_id, flash_sale_id);
             if (PublicUtil.isNotEmpty(isKilled)) flag = 1;
-
-            //查询抢购价格SKU等信息
-//            FlashSaleEntity getFlashSalePrice = flashSaleDao.findById(flash_sale_id);
-//            if (PublicUtil.isEmpty(getFlashSalePrice)) throw new Exception("无效的抢购ID");
-
-//            attribute = getFlashSalePrice.getAttribute();
         }
 
         //（普通购买）

@@ -3,6 +3,7 @@ package com.hengmall.goods.dao;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
@@ -13,6 +14,7 @@ import com.hengmall.goods.model.TbUserEntity;
  * platform库中的管理后台用户登录表
  */
 @Repository
+@Mapper
 public interface TbUserDao {
 
     @Select("select * from ${platform}.tb_user where id=#{id} limit 1")

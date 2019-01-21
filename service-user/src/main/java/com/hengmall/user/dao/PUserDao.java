@@ -1,14 +1,14 @@
 package com.hengmall.user.dao;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.springframework.stereotype.Repository;
 
 /**
  * Created by Administrator on 2018/5/24.
  */
-@Repository
+@Mapper
 public interface PUserDao {
 
 	// 设置默认收货地址

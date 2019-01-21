@@ -2,6 +2,7 @@ package com.hengmall.goods.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
@@ -11,6 +12,7 @@ import com.hengmall.goods.model.FlashSaleEntity;
 import com.hengmall.goods.model.constitute.FlashSale;
 
 @Repository
+@Mapper
 public interface FlashSaleDao {
 
     //根据状态码查询

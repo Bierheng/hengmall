@@ -2,19 +2,19 @@ package com.hengmall.user.dao;
 
 import java.util.Map;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.apache.ibatis.mapping.StatementType;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.UsersEntity;
 
 /**
  * Created by Administrator on 2018/5/24.
  */
-@Repository
+@Mapper
 public interface UsersDao {
 
     //根据token查询信息

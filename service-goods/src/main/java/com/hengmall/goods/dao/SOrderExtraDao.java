@@ -1,6 +1,7 @@
 package com.hengmall.goods.dao;
 
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -11,6 +12,7 @@ import com.hengmall.goods.model.SOrderExtraEntity;
 
 
 @Repository
+@Mapper
 public interface SOrderExtraDao {
 
     @Update("update s_order_extra set appraise_status=#{status} where order_id=#{order_id} and product_id=#{product_id} ")

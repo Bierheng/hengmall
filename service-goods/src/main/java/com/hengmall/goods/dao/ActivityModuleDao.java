@@ -2,6 +2,7 @@ package com.hengmall.goods.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Repository;
 import com.hengmall.goods.model.api.ActivityModule;
 
 @Repository
+@Mapper
 public interface ActivityModuleDao {
 
     //根据级别id查询活动模块

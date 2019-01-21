@@ -33,10 +33,10 @@ public class DistributedLockFactoryBean implements FactoryBean<DistributedLockTe
                 .setConnectionMinimumIdleSize(redssionProperties.getConnectionMinimumIdleSize());
         redisson=Redisson.create(config);*/
 
-        Config config=new Config();
+/*        Config config=new Config();
         config.useSingleServer().setAddress("redis://118.89.240.227:6379").setPassword("foreversupermarket");
         //config.useSingleServer().setAddress("redis://106.15.202.236:6379");
-        redisson=Redisson.create(config);
+        redisson=Redisson.create(config);*/
         System.out.println("成功连接Redis Server");
     }
 

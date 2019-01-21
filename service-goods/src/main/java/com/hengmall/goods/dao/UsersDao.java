@@ -3,6 +3,7 @@ package com.hengmall.goods.dao;
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -17,6 +18,7 @@ import com.hengmall.goods.model.api.UserInfo;
  * Created by Administrator on 2018/5/24.
  */
 @Repository
+@Mapper
 public interface UsersDao {
 
     //根据token查询信息

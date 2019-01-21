@@ -2,8 +2,8 @@ package com.hengmall.user.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.record.ProfitListRequest;
 import com.hengmall.user.model.record.ProfitResponse;
@@ -13,7 +13,7 @@ import com.hengmall.user.model.record.ProfitResponse;
  * @author Administrator
  *
  */
-@Repository
+@Mapper
 public interface TbProfitDao {
 
 	/**

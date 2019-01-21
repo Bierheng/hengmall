@@ -5,11 +5,11 @@ import java.util.Set;
 
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.SOrderEntity;
 import com.hengmall.user.model.ShopsLocation;
@@ -65,7 +65,7 @@ import com.hengmall.user.model.shops.examine.operation.ShopsCommendEntity;
 import com.hengmall.user.model.shops.examine.operation.ShopsEntity;
 import com.hengmall.user.model.shops.shopEntity.ShopsResponse;
 
-@Repository
+@Mapper
 public interface ShopsDao {
 
 	/**

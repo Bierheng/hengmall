@@ -1,6 +1,7 @@
 package com.hengmall.goods.dao;
 
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.hengmall.goods.model.ApplyRefundEntity;
 
 @Repository
+@Mapper
 public interface ApplyRefundDao {
 
     //数据新增

@@ -3,11 +3,11 @@ package com.hengmall.user.dao;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.SResources;
 import com.hengmall.user.model.SResourcesEntity;
@@ -15,7 +15,7 @@ import com.hengmall.user.model.SResourcesEntity;
 /**
  * Created by Administrator on 2018/5/24.
  */
-@Repository
+@Mapper
 public interface SResourcesDao {
 
 	// 根据商品ID查询（图片、视频）资源地址 用于返回给前端使用的特定格式

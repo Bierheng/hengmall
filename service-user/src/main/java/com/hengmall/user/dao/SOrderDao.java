@@ -3,10 +3,10 @@ package com.hengmall.user.dao;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.CombineDetailsResp;
 import com.hengmall.user.model.CombineSaleEntity;
@@ -14,7 +14,7 @@ import com.hengmall.user.model.DataTablesResultShops;
 import com.hengmall.user.model.SOrderEntity;
 import com.hengmall.user.model.SOrderExtraEntity;
 
-@Repository
+@Mapper
 public interface SOrderDao {
 
 	/**

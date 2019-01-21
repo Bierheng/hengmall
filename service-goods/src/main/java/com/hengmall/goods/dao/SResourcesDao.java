@@ -3,6 +3,7 @@ package com.hengmall.goods.dao;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -15,6 +16,7 @@ import com.hengmall.goods.model.constitute.ResourceCarousel;
  * Created by Administrator on 2018/5/24.
  */
 @Repository
+@Mapper
 public interface SResourcesDao {
 
     //根据商品ID查询（图片、视频）资源地址

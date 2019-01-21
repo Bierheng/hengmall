@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -23,6 +24,7 @@ import com.hengmall.goods.model.api.ProductListResp;
  * Created by Administrator on 2018/5/24.
  */
 @Repository
+@Mapper
 public interface TbTopicDao {
 
 

@@ -3,7 +3,6 @@ package com.hengmall.user.service.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.hengmall.user.dao.TbLogDao;
@@ -25,10 +24,6 @@ public class SystemServiceImpl implements SystemService {
 
     @Autowired
     private TbLogDao tbLogDao;
-
-
-    @Value("${BASE_ID}")
-    private String BASE_ID;
 
     /**
      * 获得shiro过滤链配置

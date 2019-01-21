@@ -4,10 +4,10 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.PAddressEntity;
 import com.hengmall.user.model.api.EditAddressReq;
@@ -16,7 +16,7 @@ import com.hengmall.user.model.constitute.AddressList;
 /**
  * Created by Administrator on 2018/5/24.
  */
-@Repository
+@Mapper
 public interface PAddressDao {
 
 	// 根据id查询

@@ -6,8 +6,8 @@ import java.util.Set;
 
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.sensitive.SensitiveDelRequest;
 import com.hengmall.user.model.sensitive.SensitiveWordNewRequest;
@@ -17,7 +17,7 @@ import com.hengmall.user.model.sensitive.SensitiveWordResponse;
 /**
  * 敏感词库 Dao
  */
-@Repository
+@Mapper
 public interface SensitiveWordDao {
 
 	/**

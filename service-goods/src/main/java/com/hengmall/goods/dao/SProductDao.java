@@ -2,6 +2,7 @@ package com.hengmall.goods.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
@@ -16,6 +17,7 @@ import com.hengmall.goods.model.api.ProductListResp;
  * Created by Administrator on 2018/5/24.
  */
 @Repository
+@Mapper
 public interface SProductDao {
 
     //按请求级别查询对应的商品

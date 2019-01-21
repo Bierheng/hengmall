@@ -1,16 +1,24 @@
 package com.hengmall.user.service.qcloud;
 
-import com.qcloud.cos.COSClient;
-import com.qcloud.cos.ClientConfig;
-import com.qcloud.cos.request.*;
-import com.qcloud.cos.sign.Credentials;
-import org.springframework.stereotype.Service;
-
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+
+import com.qcloud.cos.COSClient;
+import com.qcloud.cos.ClientConfig;
+import com.qcloud.cos.request.CreateFolderRequest;
+import com.qcloud.cos.request.DelFileRequest;
+import com.qcloud.cos.request.DelFolderRequest;
+import com.qcloud.cos.request.GetFileLocalRequest;
+import com.qcloud.cos.request.ListFolderRequest;
+import com.qcloud.cos.request.MoveFileRequest;
+import com.qcloud.cos.request.StatFileRequest;
+import com.qcloud.cos.request.StatFolderRequest;
+import com.qcloud.cos.request.UpdateFolderRequest;
+import com.qcloud.cos.request.UploadFileRequest;
+import com.qcloud.cos.sign.Credentials;
 
 /**
  * 对象存储 COS - 腾讯云

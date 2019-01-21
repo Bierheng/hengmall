@@ -3,6 +3,7 @@ package com.hengmall.goods.dao;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
@@ -13,6 +14,7 @@ import com.hengmall.goods.model.SOrderExtraEntity;
 import com.hengmall.goods.model.api.CombineDetailsResp;
 
 @Repository
+@Mapper
 public interface CombineOrderDao {
 
     //根据订单号查询拼单人数列表

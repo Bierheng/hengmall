@@ -1,5 +1,5 @@
 server:
-    port: 9097
+    port: 8095
 spring:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
@@ -18,9 +18,9 @@ spring:
       name: welfare
     redis:
         database: 1
-        host: 118.89.240.227 #120.55.167.171
+        host: 127.0.0.1
         port: 6379
-        password: foreversupermarket
+        password: 123456
         lettuce:
           shutdown-timeout: 30000ms
           pool:
@@ -28,8 +28,8 @@ spring:
             max-wait: -1ms
             max-idle: 0
 mybatis:
-    type-aliases-package: com.tongzhu.welfare.model
-    mapper-locations: classpath:mapping/**/*Mapper.xml
+    type-aliases-package: com.hengmall.goods.model
+    mapper-locations: classpath:mapping/**/*.xml
 
 #pagehelper分页工具
 pagehelper:
@@ -40,10 +40,10 @@ pagehelper:
 eureka:
   instance:
     prefer-ip-address: true
-    ip-address: 192.168.0.156
+    ip-address: 127.0.0.1
   client:
     serviceUrl:
-      defaultZone: http://192.168.0.156:8761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
 #logging:
 #  level:
 #    com.tongzhu.welfare.mapper : debug

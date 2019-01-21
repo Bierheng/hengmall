@@ -4,16 +4,16 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.SAppraiseEntity;
 
 /**
  * Created by Administrator on 2018/5/24.
  */
-@Repository
+@Mapper
 public interface SAppraiseDao {
 
 	// 根据商品id查询评价信息

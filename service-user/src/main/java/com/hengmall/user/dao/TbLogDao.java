@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.Ads;
 import com.hengmall.user.model.TbLog;
@@ -14,7 +14,7 @@ import com.hengmall.user.model.TbLog;
 /**
  * Created by  wuhengbin on 2018/5/24.
  */
-@Repository
+@Mapper
 public interface TbLogDao {
 	
 	// 根据id查询

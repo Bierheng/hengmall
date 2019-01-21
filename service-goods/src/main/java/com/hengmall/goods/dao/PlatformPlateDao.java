@@ -2,6 +2,7 @@ package com.hengmall.goods.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
@@ -11,6 +12,7 @@ import com.hengmall.goods.model.PlatformPlateEntity;
 import com.hengmall.goods.model.ProductReq;
 
 @Repository
+@Mapper
 public interface PlatformPlateDao {
 	
 	@Select("select * from platform_plate where type_id = #{typeId} order by order_num")

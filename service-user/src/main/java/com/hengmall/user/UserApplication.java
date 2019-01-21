@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-@MapperScan("com.hengmall.user.mapper")
+@MapperScan("com.hengmall.user.dao")
 @EnableEurekaClient
 @SpringBootApplication
 @EnableFeignClients

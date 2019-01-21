@@ -2,12 +2,14 @@ package com.hengmall.goods.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
 import com.hengmall.goods.model.FlashSaleTimelinessEntity;
 
 @Repository
+@Mapper
 public interface FlashSaleTimelinessDao {
 
     //根据类型查询

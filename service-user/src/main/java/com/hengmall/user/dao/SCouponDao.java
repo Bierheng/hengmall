@@ -5,10 +5,10 @@ import java.util.Map;
 
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.SCouponBean;
 import com.hengmall.user.model.SCouponEntity;
@@ -16,7 +16,7 @@ import com.hengmall.user.model.SCouponEntity;
 /**
  * wuhengbin on 2018/7/2.
  */
-@Repository
+@Mapper
 public interface SCouponDao {
 	
 	/**

@@ -1,12 +1,12 @@
 package com.hengmall.user.dao;
 
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Repository;
 
 import com.hengmall.user.model.api.AddCartReq;
 
-@Repository
+@Mapper
 public interface SShoppingcartDao {
 
 	// 新增
